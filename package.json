@@ -4,7 +4,7 @@
   "description": "Desenvolvimento de uma API RESTFUL utilizando Node.js. O principal foco é estudar, aplicar e aprofundar os conhecimentos de:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/CleversonCSousa/nodejs-api-restful#readme",
   "devDependencies": {
+    "@types/node": "^22.15.24",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fastify": "^5.3.3"
   }
 }
