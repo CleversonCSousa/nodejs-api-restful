@@ -1,7 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import { z } from 'zod';
 import { knex } from '../database';
-import { title } from 'process';
 import { randomUUID } from 'crypto';
 
 export async function transactionsRoutes(app: FastifyInstance) {
