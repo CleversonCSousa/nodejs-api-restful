@@ -22,8 +22,10 @@
   "homepage": "https://github.com/CleversonCSousa/nodejs-api-restful#readme",
   "devDependencies": {
     "@types/node": "^22.15.24",
+    "@types/supertest": "^6.0.3",
     "eslint": "^8.57.1",
     "prettier": "^3.5.3",
+    "supertest": "^7.1.1",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.0",
