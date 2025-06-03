@@ -1,5 +1,15 @@
+# Dependencies
 /node_modules
+
+# Database
 db/*.db
+
+# Environment
 .env
-.prettierignore
 .env.test
+
+# To not format specific files
+.prettierignore
+
+#Build
+build
